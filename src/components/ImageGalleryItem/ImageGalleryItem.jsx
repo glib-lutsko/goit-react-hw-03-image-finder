@@ -7,7 +7,7 @@ export const ImageGalleryItem = ({
     <li className="gallery-item">
       <img
         src={webformatURL}
-        alt="picture"
+        alt={webformatURL}
         onClick={() => openModal(largeImageURL)}
       />
     </li>
